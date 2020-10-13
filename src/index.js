@@ -179,9 +179,12 @@ class Main extends React.Component {
         this.setState({ nGenerations: null });
         break;
       case 2:
-      //stepper generation
+        //stepper generation
+        break;
       case 3:
-        this.setState({ nGenerations: null });
+        //TODO add in set N logic somewhere
+        //this.setState({ nGenerations: null });
+        break;
       default:
         this.setState({ nGenerations: null });
         break;
